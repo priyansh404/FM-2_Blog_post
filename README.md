@@ -53,4 +53,4 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## Author
 
 - Website - [Priyansh🙂](#)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/priyansh404)
+- Frontend Mentor - [@priyansh404](https://www.frontendmentor.io/profile/priyansh404)
