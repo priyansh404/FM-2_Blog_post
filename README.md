@@ -52,5 +52,5 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## Author
 
-- Website - [Priyansh🙂](#)
+- Github - [Priyansh🙂](https://github.com/priyansh404)
 - Frontend Mentor - [@priyansh404](https://www.frontendmentor.io/profile/priyansh404)
