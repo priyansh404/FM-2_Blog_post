@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&family=Outfit:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--Yellow: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--Gray500: hsl(0, 0%, 42%);
+--Gray950: hsl(0, 0%, 7%);
+}
+
+body{
+    font-family: 'Figtree';
+    background-color: var(--Yellow);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 1px);
+    text-align: left;
+
+}
+.container{
+    background-color: var(--White);
+    color: var(--Gray950);
+    font-size: 16px;
+    padding: 1rem;
+    max-width: 350px;
+    min-width: 300px;
+    border-radius: 1rem;
+    border: 2px solid;
+    border-color: var(--Gray950);
+    box-shadow: 5px 5px 0.5px var(--Gray950);
+    margin-bottom: 3rem;
+
+}
+
+.container:hover{
+    box-shadow: 5px 5px 10px var(--Gray950);
+}
+
+.container svg{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.container h5{
+    background-color: var(--Yellow);
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+    width: 25%;
+    text-align: center;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    font-weight: 800;
+}
+
+.container p{
+    margin-top: 0.625rem;
+    margin-bottom: 0.8rem;
+}
+
+.container h2:hover{
+    color: var(--Yellow);
+    cursor: pointer;
+}
+
+.genText{
+    color: var(--Gray500);
+}
+
+.avatar {
+    display: flex;
+}
+.avatar p{
+    margin-left: 0.625rem;
+    font-weight: 800;
+}
+
+.container img{
+    margin-top: 0.25rem;
+    width: 10%;
+    height:10%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
